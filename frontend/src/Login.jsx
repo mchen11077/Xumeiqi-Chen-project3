@@ -16,8 +16,6 @@ export default function Login({onLogin}) {
             localStorage.setItem('token', res.data.token)
             localStorage.setItem('userInfo', res.data.user)
             navigate('/password-manager')
-            // localStorage
-
         } catch (error) {
             alert('Login failed:'+ error.response.data.message)
             console.error('Login failed:', error);

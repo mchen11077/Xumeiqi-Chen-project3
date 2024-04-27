@@ -10,7 +10,7 @@ export default function Home() {
             <p className="home-description">
               This is a password manager app where you can store, manage, and share your passwords.
             </p>
-            <h2 className="home-description"> Created by </h2>
+            <h2 className="home-description"> Created by Xumeiqi Chen</h2>
           </div>
         </div>
       </div>
